@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bayesian Theorem</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Bootstrap theme</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Bootstrap theme</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+            </div><!--/.nav-collapse -->
         </div>
-      </nav>
+    </nav>
 
 
 
@@ -54,12 +61,15 @@
             <h2>Fundamentals of Bayesian Theorem</h2>
             <p>
                 Bayesian theorem, also known as Bayes' rule or Bayes' law, is a probabilistic theorem that describes the
-                relationship between the conditional probabilities of two events. It is named after Thomas Bayes, an 18th-century
-                English statistician and philosopher. The theorem is a fundamental concept in probability theory and statistics,
+                relationship between the conditional probabilities of two events. It is named after Thomas Bayes, an
+                18th-century
+                English statistician and philosopher. The theorem is a fundamental concept in probability theory and
+                statistics,
                 providing a mathematical framework for updating our beliefs when given new evidence.
             </p>
             <p>
-                The theorem is written as P(A|B) = (P(B|A) * P(A)) / P(B), where P(A|B) is the probability of event A happening,
+                The theorem is written as P(A|B) = (P(B|A) * P(A)) / P(B), where P(A|B) is the probability of event A
+                happening,
                 given that event B has occurred, P(B|A) is the probability of event B happening, given that event A has
                 occurred, and P(A) and P(B) are the probabilities of events A and B happening independently.
             <div>
@@ -67,40 +77,86 @@
             </div>
             </p>
         </section>
-        
+
         <section id="history">
             <h2>History of Bayesian Theorem</h2>
             <p>
-                Bayesian theorem is named after Reverend Thomas Bayes, who first formulated the theorem in the 18th century. He
-                developed the theorem in the context of solving a specific problem in probability theory known as the "inverse
-                probability problem." However, it was not until after Bayes' death that his work was published by Richard Price,
+                Bayesian theorem is named after Reverend Thomas Bayes, who first formulated the theorem in the 18th
+                century. He
+                developed the theorem in the context of solving a specific problem in probability theory known as the
+                "inverse
+                probability problem." However, it was not until after Bayes' death that his work was published by
+                Richard Price,
                 another prominent mathematician of the time.
             </p>
             <p>
-                In the years that followed, Bayesian theorem gained wider acceptance and was further developed by mathematicians
-                such as Pierre-Simon Laplace. Over time, the theorem became an essential tool in the field of statistics and
-                probability, with numerous applications across various disciplines, including science, engineering, economics, and
+                In the years that followed, Bayesian theorem gained wider acceptance and was further developed by
+                mathematicians
+                such as Pierre-Simon Laplace. Over time, the theorem became an essential tool in the field of statistics
+                and
+                probability, with numerous applications across various disciplines, including science, engineering,
+                economics, and
                 more recently, artificial intelligence and machine learning.
             </p>
         </section>
-        
+
         <section id="application">
             <h2>How Bayesian Theorem Applies to Large Language Models</h2>
             <p>
-                Bayesian theorem is an essential component of many machine learning algorithms, including large language models
-                (LLMs). In the context of LLMs, Bayesian methods can be used to estimate the parameters of the model, update
-                beliefs about the model's parameters as new data is observed, and make predictions based on the current state of
+                Bayesian theorem is an essential component of many machine learning algorithms, including large language
+                models
+                (LLMs). In the context of LLMs, Bayesian methods can be used to estimate the parameters of the model,
+                update
+                beliefs about the model's parameters as new data is observed, and make predictions based on the current
+                state of
                 the model.
             </p>
             <p>
-                One common application of Bayesian theorem in LLMs is through the use of Bayesian inference, where the model's
-                parameters are updated iteratively as new data is processed. This allows the model to learn from the data and
+                One common application of Bayesian theorem in LLMs is through the use of Bayesian inference, where the
+                model's
+                parameters are updated iteratively as new data is processed. This allows the model to learn from the
+                data and
                 make more accurate predictions over time.
             </p>
         </section>
-        
+
         <section id="effectiveness">
             <h2>Why Bayesian Theorem Works So Well in Large Language Models</h2>
             <p>
-                Bayesian theorem works well in large language models because it provides a principled framework for updating
-               
+                Bayesian theorem works well in large language models because it provides a principled framework for
+                updating
+            </p>
+        </section>
+
+        <section id="application">
+            <h2>How Bayesian Theorem Applies to Large Language Models</h2>
+            <p>
+                Bayesian theorem is an essential component of many machine learning algorithms, including large language
+                models
+                (LLMs). In the context of LLMs, Bayesian methods can be used to estimate the parameters of the model,
+                update
+                beliefs about the model's parameters as new data is observed, and make predictions based on the current
+                state of
+                the model.
+            </p>
+            <p>
+                One common application of Bayesian theorem in LLMs is through the use of Bayesian inference, where the
+                model's
+                parameters
+            </p>
+        </section>
+
+        <section id="backpropagation">
+            <h2>How does back propogate and Bayesian Theorem Works Together</h2>
+            <p>
+                Bayesian theorem and backpropagation are two different ideas, but they can work together in some
+                situations.
+
+                Imagine that Bayesian theorem is like a detective who uses clues to guess who might be the criminal.
+                Backpropagation is like a teacher who helps a student learn by telling them which answers are right and
+                wrong.
+
+                When we have a big computer brain called a neural network, we sometimes want to help it learn using both
+                the detective's clues (Bayesian theorem) and the teacher's advice (backpropagation). In some cases, they
+                can work together to make the computer brain smarter and better at understanding things.
+            </p>
