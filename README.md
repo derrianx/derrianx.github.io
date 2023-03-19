@@ -9,3 +9,10 @@ design pages
 product photography
 stable diff 
 ui 
+
+
+# Where you left off
+
+https://github.com/f/awesome-chatgpt-prompts
+https://prompts.chat/
+https://console.cloud.google.com/storage/browser/githubpages
