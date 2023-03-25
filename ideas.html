@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
   </head>
+  <style>
+    .cols-container {
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: calc(var(--inner-gutter) * -1);
+    }
+  </style>
   <body>
     <h1>Welcome to my Page</h1>
     <p>This is a placeholder HTML page. Feel free to edit it and add your own content.</p>
     <!-- Create a list of ideas -->
-    <ul>
+    <ul class="cols-container">
         <li>esoteric languages</li>
         <li>code obsfucation</li>
     </ul>

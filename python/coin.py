@@ -20,12 +20,14 @@ def bayes(array):
     # return the probability of heads and tails
     return prob_heads, prob_tails, prob_heads_given_tails, prob_tails_given_heads
 
+
+
+
 # print the probability of heads and tails
 
-# print(bayes(array))
-
 # use a seaborn countplot to visualize the results
-sns.distplot(array, stat="density")
+sns.histplot(array, stat="probability", discrete=True)
+# is an error but it works when save the png
 # display the plot
 
-plt.savefig('my_plot.png')
+plt.savefig('coin.png')
